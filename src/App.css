@@ -1,42 +1,83 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.app {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+
+.nav {
+  display: flex;
+  background-color: #F55A5A;
   color: white;
+  justify-content: center;
 }
 
-.App-link {
-  color: #61dafb;
+.nav>h3 {
+  padding: 1rem 0;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.nav-icon {
+  margin-right: 0.5rem;
 }
 
-button {
-  font-size: calc(10px + 2vmin);
+.card {
+  display: flex;
+  align-items: center;
+}
+
+.card-img {
+  object-fit: cover;
+  width: 125px;
+  height: 168px;
+  padding: 1rem;
+}
+
+.card-header {
+  display: flex;
+}
+
+.content {
+  padding: 1rem 1rem;
+}
+
+
+.card-body {
+  padding: 1rem 1rem;
+}
+
+.card-mini-header {
+  display: flex;
+  align-items: baseline;
+  padding-bottom: 0.3rem;
+
+}
+
+.card-mini-header>img {
+  margin-right: 0.5rem;
+}
+
+.card-mini-header>h4 {
+  font-weight: 300;
+  letter-spacing: 0.2rem
+}
+
+.card-mini-header>h5 {
+  font-weight: 300;
+  text-decoration: underline;
+  color: gray;
+}
+
+.card-header {
+  padding-bottom: 1rem;
+}
+
+.card-description-date {
+  padding-bottom: 0.3rem;
+}
+
+.card-description-detail {
+  font-weight: normal;
+}
+
+.line {
+  height: 2px;
+  background-color: #F5F5F5;
 }
